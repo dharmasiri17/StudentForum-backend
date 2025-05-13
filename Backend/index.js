@@ -1,10 +1,14 @@
 import express from "express";
 import mongoose from "mongoose";    
-import Student from "./Models/student.js";
+import cors from "cors"; // Import CORS
 import studentRouter from "./routers/studentRouter.js";
 
 
 let app = express();
+// Enable CORS for requests from frontend (http://localhost:3000)
+app.use(cors({
+    origin: "http://localhost:3000", // Allow frontend to make requests from this URL
+}));
 
 app.use(express.json());
 
