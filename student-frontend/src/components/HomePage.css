@@ -1,0 +1,35 @@
+/* HomePage.css */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a1e7c7;
+  font-family: 'Raleway', sans-serif;
+  justify-content: center
+}
+
+.home-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #005f38;
+}
+
+.home-button {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.4); /* ✅ white with 40% opacity */
+  font-size: 24px;
+  color: black;
+  padding: 12px 24px;
+  margin: 5px;
+  border: 0px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.home-button:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.6); /* slightly more visible on hover */
+}

@@ -7,7 +7,7 @@
 
 .left {
   width: 60%;
-  height: 1080px;
+  height: 100vh;
   background-color: rgb(255, 255, 255);
 
 }
@@ -34,7 +34,7 @@
 .right {
   width: 40%;
   height: 1080px;
-  background-color: lightgreen;
+  background-color: rgb(199, 255, 199);
 }
 
 
